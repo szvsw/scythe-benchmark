@@ -1,6 +1,7 @@
-def main():
-    print("Hello from scythe-benchmark!")
+from scythe.worker import ScytheWorkerConfig
 
+from experiments import *  # noqa: F403
 
 if __name__ == "__main__":
-    main()
+    worker_config = ScytheWorkerConfig()
+    worker_config.start()
