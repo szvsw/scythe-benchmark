@@ -17,19 +17,19 @@ REPEATS = 5
 CASES = [
     {"factor": 2, "max_depth": 0, "sleep": 0.5, "n": 1023},
     {"factor": 2, "max_depth": 1, "sleep": 0.5, "n": 1023},
-    {"factor": 4, "max_depth": 1, "sleep": 0.5, "n": 1023},
-    {"factor": 8, "max_depth": 1, "sleep": 0.5, "n": 1023},
-    {"factor": 16, "max_depth": 1, "sleep": 0.5, "n": 1023},
-    {"factor": 32, "max_depth": 1, "sleep": 0.5, "n": 1023},
-    {"factor": 64, "max_depth": 1, "sleep": 0.5, "n": 1023},
     {"factor": 2, "max_depth": 2, "sleep": 0.5, "n": 1023},
-    {"factor": 4, "max_depth": 2, "sleep": 0.5, "n": 1023},
-    {"factor": 8, "max_depth": 2, "sleep": 0.5, "n": 1023},
     {"factor": 2, "max_depth": 3, "sleep": 0.5, "n": 1023},
-    {"factor": 4, "max_depth": 3, "sleep": 0.5, "n": 1023},
     {"factor": 2, "max_depth": 4, "sleep": 0.5, "n": 1023},
     {"factor": 2, "max_depth": 5, "sleep": 0.5, "n": 1023},
     {"factor": 2, "max_depth": 6, "sleep": 0.5, "n": 1023},
+    {"factor": 4, "max_depth": 1, "sleep": 0.5, "n": 1023},
+    {"factor": 4, "max_depth": 2, "sleep": 0.5, "n": 1023},
+    {"factor": 4, "max_depth": 3, "sleep": 0.5, "n": 1023},
+    {"factor": 8, "max_depth": 1, "sleep": 0.5, "n": 1023},
+    {"factor": 8, "max_depth": 2, "sleep": 0.5, "n": 1023},
+    {"factor": 16, "max_depth": 1, "sleep": 0.5, "n": 1023},
+    {"factor": 32, "max_depth": 1, "sleep": 0.5, "n": 1023},
+    {"factor": 64, "max_depth": 1, "sleep": 0.5, "n": 1023},
 ]
 
 total = len(CASES) * REPEATS
